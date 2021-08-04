@@ -1,0 +1,14 @@
+#ifndef ACTION_H
+#define ACTION_H
+
+typedef enum user_action_t {
+  USER_ACTION_NO_OP = 0,
+  USER_ACTION_QUIT,
+  USER_ACTION_REFRESH,
+  USER_ACTION_NAVIGATE,
+  USER_ACTION_RESIZE,
+  USER_ACTION_CONFIRM,
+  USER_ACTION_DENY
+} user_action_t;
+
+#endif
